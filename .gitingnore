@@ -1,1 +1,8 @@
 .idea/
+.vendor/
+composer.phar
+composer.lock
+.env
+vendor/
+MatchHockey.http
+auth.http
