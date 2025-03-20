@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+}
+
+.header-title {
+    padding: 1rem;
+    margin: auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(90, 90, 90);
+}
+
+.header-nav a {
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    background-color: #bcbcbcbc;
+}
+
+.main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* CSS for the form in modifierJoueur.php */
+.form-modifier-joueur {
+    min-width: 300px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-modifier-joueur label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-modifier-joueur input,
+.form-modifier-joueur select {
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-modifier-joueur button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-modifier-joueur button:hover {
+    background-color: #0056b3;
+}

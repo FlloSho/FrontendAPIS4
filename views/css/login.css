@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Glacial Indifference', sans-serif;
+}
+body {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: linear-gradient(rgba(39, 64, 124, 0.63),rgba(39, 64, 124, 0.63)), url("../../images/fond.jpg");
+    background-size: cover;
+    background-position: center ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-height: 40%;
+    min-width: 20%;
+
+
+    background-color: rgba(227, 223, 231, 0.47);
+    padding: 20px;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+div.champ{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+    border: 1px solid #ccc;
+}
+input.bouton{
+    align-self: center;
+    max-width: 50%;
+    background-color: #eaeaea;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+
+}

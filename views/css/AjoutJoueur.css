@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Glacial Indifference', sans-serif;
+}
+.header {
+    background-color: #333;
+    color: white;
+}
+
+.header-title {
+    padding: 1rem;
+    margin: auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(90, 90, 90);
+}
+
+.header-nav a {
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    background-color: #bcbcbcbc;
+}
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Ajouté pour empiler les éléments verticalement */
+    background-image: linear-gradient(rgba(39, 64, 124, 0.63),rgba(39, 64, 124, 0.63)), url("../../images/fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding-bottom: 2%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+
+    background-color: #cccccc;
+    border-radius: 10px;
+    height: 75%;
+    width: 45%;
+    align-self: center;
+}
+form label{
+    width: 75%;
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+form input{
+    width: 75%;
+    height: 10%;
+    max-height: 50px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button{
+    width: 50%;
+    height: 10%;
+    max-height: 50px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 3px 0;
+    bottom: 0;
+    width: 100%;
+}
